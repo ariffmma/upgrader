@@ -154,7 +154,7 @@ class UpgraderMessages {
       case 'en':
       default:
         message =
-            'A new version of {{appName}} is available! Version {{currentAppStoreVersion}} is now available-you have {{currentInstalledVersion}}.';
+           'A new version of {{appName}} Version {{currentAppStoreVersion}} is now available !';
         break;
     }
     return message;
