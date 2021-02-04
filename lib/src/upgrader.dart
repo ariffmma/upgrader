@@ -81,10 +81,10 @@ class Upgrader {
   BoolCallback onUpdate;
 
   /// Hide or show Ignore button on dialog (default: true)
-  bool showIgnore = true;
+  bool showIgnore = false;
 
   /// Hide or show Later button on dialog (default: true)
-  bool showLater = true;
+  bool showLater = false;
 
   /// Can alert dialog be dismissed on tap outside of the alert dialog. Not used by alert card. (default: false)
   bool canDismissDialog = false;
